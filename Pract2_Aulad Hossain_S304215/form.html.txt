@@ -1,0 +1,25 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>Registration Form</title>
+
+<link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+  <h1 style="color:green;text-align:center;">Registration Form</h1>
+  <div class="reg-form">
+      <form id="registration">
+      <input type="text" name="fname" id="A" placeholder="First name">
+      <input type="text" name="lname" id="B" placeholder="Last name">
+      <input type="text" name="address" id="C" placeholder="Address">
+      <input type="text" name="email" id="D" placeholder="Email"><br>
+      <select><option>+61</option></select>
+      <input type="tel" name="Mnumber" id="E" placeholder="Number">
+      <input type="date" name="bday" id="F" min="1980-01-02">
+      <input type="text" name="Gender" id="G" placeholder="Gender">
+      <input type="Submit" value="Register" id="H">
+
+        </form>
+      </div>
+     </body>
+   </html>
