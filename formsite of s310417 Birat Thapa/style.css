@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(gg.jpg) no-repeat center fixed;
+  background-size: cover;
+
+
+}
+.form-box{
+  width:600px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  background: rgba(0, 30, 50, 0.3);
+
+}
+.form-box h1{
+  color: #ccd6e0;
+  font-family: monospace;
+  text-align: center;
+
+}
+.formcontrol{
+  width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: rgba(100,100, 100, 0.3);
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.birthdate{
+  width: 500px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 16px;
+
+}
+.formcontrol-label{
+  width: 500px;
+  margin-left: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+
+}
+.form-box button{
+  background: #506d4c;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  height:30px;
+  margin: 20px;
+  transform: translate(200%);
+
+
+}
+.form-box button:hover{
+  background-color: #85a4bf;
+  cursor: pointer;
+ }
+ .form-box select{
+   background: #2d3f4f;
+   color: #fff;
+   padding 10px;
+   width: 50 px;
+   height:50 px;
+   border: none;
+   font-size: 18px;
+ }
+ .input:required {
+    border: 1px solid #ffc107;
+}
